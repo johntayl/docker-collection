@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  cache:
+    container_name: redis-json
+    image: redislabs/rejson:latest
+    ports:
+      - "6379:6379"
+    command: redis-server --requirepass redis
+    volumes:
+      - ./data:/data
