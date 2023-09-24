@@ -5,3 +5,4 @@ Some Docker compose files for running different services locally.
 - MongoDB
 - Postgres
 - Redis
+- RabbitMQ
